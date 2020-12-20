@@ -25,8 +25,8 @@ function BottomBar() {
     justifyContent: 'space-evenly',
     gap: 20,
     box: {
-      height: '100%',
-      width: '100%',
+      height: '15rem',
+      width: '20rem',
       background: 'white',
     },
   }
@@ -35,8 +35,6 @@ function BottomBar() {
       <div style={style.box}>
         <Bar
           data={data}
-          width={200}
-          height="100%"
           options={{
             title: {
               display: true,
@@ -47,14 +45,14 @@ function BottomBar() {
               display: true,
               position: 'right',
             },
+            maintainAspectRatio: false,
           }}
         />
       </div>
       <div style={style.box}>
+        {/* <div> */}
         <Bar
           data={data}
-          width={200}
-          height="100%"
           options={{
             title: {
               display: true,
@@ -65,8 +63,10 @@ function BottomBar() {
               display: true,
               position: 'right',
             },
+            maintainAspectRatio: false,
           }}
         />
+        {/* </div> */}
       </div>
     </div>
   )
