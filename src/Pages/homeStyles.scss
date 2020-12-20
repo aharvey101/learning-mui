@@ -1,0 +1,14 @@
+.iContain {
+  margin: 0;
+  padding: 0;
+  display: grid;
+  min-width: 100%;
+  min-height: 100%;
+  grid-template-columns: 2fr 10fr 2fr;
+  grid-template-rows: auto auto auto;
+  gap: 1rem;
+  grid-template-areas:
+    'nav         nav       nav'
+    'sidebarLeft map       sidebarRight'
+    'sidebarLeft bottomBar sidebarRight';
+}

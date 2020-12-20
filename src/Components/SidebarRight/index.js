@@ -4,9 +4,7 @@ const SidebarRight = (params) => {
   const style = {
     backgroundColor: '#B6D5D7',
     minHeight: '100%',
-    marginRight: 0,
-    paddingRight: 0,
-
+    gridArea: 'sidebarRight',
     h1: {
       padding: 10,
       fontSize: 20,

@@ -7,6 +7,7 @@ export default function Sidebar() {
     minHeight: '100%',
     backgroundColor: '#B6D5D7',
     marginRight: 10,
+    gridArea: 'sidebarLeft',
     h1: {
       color: 'red',
     },
